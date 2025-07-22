@@ -1,0 +1,8 @@
+# Function to Greet the User
+
+def greet_user(name):
+    print("Hello", name)
+    print("Welcome to the program!")
+    
+Uname=input("Please enter your name: ")
+greet_user(Uname)

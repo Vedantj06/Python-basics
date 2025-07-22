@@ -1,0 +1,10 @@
+def greet_user(**kwargs):
+    name = kwargs.get('name' )
+    age = kwargs.get('age')
+    city = kwargs.get('city')
+    print(f"Hello {name}, you are {age} years old and live in {city}.")
+    
+Uname = input("Please enter your name: ")
+Uage = input("Please enter your age: ")
+Ucity = input("Please enter your city: ")
+greet_user(name=Uname, age=Uage, city=Ucity)
